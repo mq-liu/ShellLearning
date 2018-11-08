@@ -28,4 +28,4 @@ echo "num1+num2=$[num1+num2]"
 # 浮点运算
 #表示 10/3， 保留2位小数，将结果赋值给了num, 输出3.33
 num=$(echo "scale=2; 10 / 3"|bc)
-echo num
+echo $num
